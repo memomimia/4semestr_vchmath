@@ -7,7 +7,6 @@ double f(double x) {
 }
 
 // Функция вычисления интеграла методом Симпсона
-// с использованием представленных формул
 double simpson_integral(double a, double b, int n) {
     if (n % 2 != 0) n++; // Убедимся, что n четное
     
