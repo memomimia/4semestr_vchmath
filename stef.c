@@ -8,7 +8,7 @@ double f(double x) {
     return 3 - sqrt(x) - 0.5 * log(x);
 }
 
-// Метод Стеффенсена для нахождения корня уравнения
+// Метод Стеффенсена для нахождения корня уравнения.
 double steffensen(double x0) {
     double x_next;
     
